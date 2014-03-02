@@ -15,7 +15,7 @@
     "frame": true,
     "width": 1024,
     "height": 768,
-    "position": "mouse"/*,
+    "position": "center"/*,
     "min_width": 400,
     "min_height": 200,
     "max_width": 800,

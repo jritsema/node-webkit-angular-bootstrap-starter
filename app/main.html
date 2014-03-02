@@ -1,5 +1,18 @@
 <div class="starter-template">
 
-	Starter desktop app built using node-webkit, angular, and bootstrap
+	<p>
+		Starter desktop app built using node-webkit, angular, and bootstrap
+	</p>
+
+	<p>
+		Node.js version <strong>{{ nodeVersion }}</strong>
+	</p>	
+
+	<p>
+		Contents of current directory:
+		<ul>
+			<li ng-repeat="file in files">{{ file }}</li>
+		</ul>
+	</p>
 
 </div>
