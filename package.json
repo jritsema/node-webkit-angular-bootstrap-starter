@@ -1,7 +1,7 @@
 {
   "name": "node-webkit-angular-bootstrap-starter",
   "version": "0.0.1",
-  "description": "starter destkop app using node-webkit, angular, and bootstrap",
+  "description": "Starter destkop app using node-webkit, html5, angular, and bootstrap",
   "main": "app/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
