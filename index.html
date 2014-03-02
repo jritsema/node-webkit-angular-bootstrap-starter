@@ -1,14 +1,19 @@
-<html ng-app>
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
   <head>
-    <title>Hello World!</title>
+    <title>node-webkit-angular-bootstrap-starter</title>
   </head>
   <body>
-    <div>
-      <label>Name:</label>
-      <input type="text" ng-model="yourName" placeholder="Enter a name here">
-      <hr>
-      <h1>Hello {{ yourName }}!</h1>
-    </div>
-    <script src="angular.min.js"></script>
+
+    <div class="container" ng-view />
+
+    <!-- third party -->
+    <script src="thirdparty/angular.js"></script>
+    <script src="thirdparty/angular-route.js"></script>
+
+    <!-- app -->
+    <script src="app/app.js"></script>
+    <script src="app/view1.js"></script>
+
   </body>
 </html>

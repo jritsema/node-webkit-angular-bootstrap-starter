@@ -1,7 +1,7 @@
 {
-  "name": "node-webkit-example",
+  "name": "node-webkit-angular-bootstrap-starter",
   "version": "0.0.1",
-  "description": "trying out node-webkit",
+  "description": "starter app using node-webkit, angular, and bootstrap",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "window": {
-    "title": "node-webkit example",
+    "title": "node-webkit-angular-bootstrap-starter",
     //"icon": "link.png",
     "toolbar": false,
     "frame": true,
