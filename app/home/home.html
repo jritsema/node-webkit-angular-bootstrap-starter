@@ -4,11 +4,14 @@
 		Starter desktop app built using node-webkit, angular, and bootstrap
 	</p>
 
-	<p>
-		Contents of current directory:
-		<ul>
-			<li ng-repeat="file in files">{{ file }}</li>
-		</ul>
-	</p>
+	<br/>
+
+	<p>OS Settings</p>
+	
+	<table class="table">
+		<tr ng-repeat="setting in settings">
+			<td><strong>{{ setting.name }}</strong></td><td>{{ setting.value }}</td>
+		</tr>
+	</table>	
 
 </div>

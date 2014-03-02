@@ -1,13 +1,14 @@
 ﻿'use strict'
 
-app.controller('homeController', function ($scope, $q) {
+app.controller('homeController', function ($scope) {
 
-	var fs = require('fs');
-	fs.readdir('c:\\', function (err, files) {
-		if (err) throw err;
-		$scope.$apply(function() { 
-			$scope.files = files;
-		});
+	var os = require('os');
+
+	$scope.settings = [];
+	
+	Object.getOwnPropertyNames(os).forEach(function(val, idx, array) { 
+		if (typeof os[val] === 'function')
+			$scope.settings.push({ name: val, value: os[val]() });	
 	});
 
 });
