@@ -10,7 +10,7 @@
   "license": "MIT",
   "window": {
     "title": "node-webkit-angular-bootstrap-starter",    
-    "toolbar": false,
+    "toolbar": true,
     "frame": true,
     "width": 1024,
     "height": 768,
